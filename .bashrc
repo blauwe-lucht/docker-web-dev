@@ -1,5 +1,5 @@
 export SHELL=/bin/bash
-export PS1=${debian_chroot:+($debian_chroot)}\\u@docker-web-dev:\\w\\$\
+export PS1=${debian_chroot:+($debian_chroot)}\\u@docker-web-dev:\\w\\$\ 
 
 export LS_OPTIONS='--color=auto'
 eval "`dircolors`"
